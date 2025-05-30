@@ -1,0 +1,191 @@
+.table-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background-color: #e9f5e9;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 122, 0, 0.15);
+  overflow-x: auto;
+}
+
+.gridjs-search-input,
+.gridjs-search-input:focus,
+table-pagination-button,
+table-pagination-button:hover,
+.pageSize {
+  box-shadow: none !important;
+}
+.table-container h2 {
+  color: #014d00;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+  user-select: none;
+}
+
+.table-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.table-controls label {
+  font-weight: 600;
+  color: #014d00;
+  user-select: none;
+  font-size: 1rem;
+}
+
+#pageSize {
+  border: 2px solid #007a00;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 1rem;
+  background-color: #f6fff6;
+  color: #014d00;
+  cursor: pointer;
+  min-width: 90px;
+  transition: all 0.3s ease;
+}
+
+#pageSize:focus {
+  border-color: #004d00;
+  background-color: #dff5df;
+  outline: none;
+}
+
+.green-table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  background-color: #f8fff8 !important;
+  color: #014d00 !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  font-size: 0.95rem !important;
+}
+
+.green-table thead th {
+  background-color: #007a00 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  padding: 12px 15px !important;
+  text-align: left !important;
+  border-bottom: 2px solid #004d00 !important;
+  user-select: none !important;
+  cursor: pointer !important;
+}
+
+.green-table tbody td {
+  padding: 10px 15px !important;
+  border-bottom: 1px solid #cbeacc !important;
+  background-color: #f6fff6 !important;
+  transition: background-color 0.2s ease;
+}
+
+.green-table tbody tr:nth-child(even) td {
+  background-color: #e2f3e2 !important;
+}
+
+.green-table tbody tr:hover td {
+  background-color: #bde5bd !important;
+  color: #002800 !important;
+}
+
+.table-search input {
+  border: 2px solid #007a00 !important;
+  border-radius: 6px !important;
+  padding: 8px 12px !important;
+  font-size: 1rem !important;
+  color: #014d00 !important;
+  background-color: #f0fff0 !important;
+  outline: none !important;
+  max-width: 300px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  transition: all 0.3s ease !important;
+  margin-bottom: 1rem;
+}
+
+.table-search input:focus {
+  border-color: #004d00 !important;
+  background-color: #d9f0d9 !important;
+}
+
+/* === Pagination Buttons === */
+.table-pagination-button {
+  background-color: #007a00 !important;
+  border: none !important;
+  color: white !important;
+  padding: 6px 12px !important;
+  margin: 0 4px !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.table-pagination-button:hover {
+  background-color: #004d00 !important;
+}
+
+.table-pagination-current {
+  background-color: #004d00 !important;
+  font-weight: bold !important;
+}
+
+.gridjs-footer {
+  display: flex !important;
+  justify-content: center !important; /* Oder: flex-end */
+  align-items: center !important;
+  padding: 1rem 0 !important;
+  background-color: #f0fff0 !important;
+  border-top: 2px solid #c5e9c5 !important;
+  border-radius: 0 0 12px 12px !important;
+  font-size: 1rem !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  gap: 1rem !important;
+}
+
+.gridjs-summary {
+  color: #014d00 !important;
+  font-weight: 600 !important;
+  white-space: nowrap !important;
+}
+
+.gridjs-pagination {
+  display: flex !important;
+  gap: 0.5rem !important;
+}
+
+.gridjs-pages button {
+  background-color: #ffffff !important;
+  color: #014d00 !important;
+  border: 2px solid #007a00 !important;
+  padding: 6px 12px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.gridjs-pages button:hover {
+  background-color: #b6e8b6 !important;
+  color: #003300 !important;
+}
+
+.gridjs-pages .gridjs-currentPage {
+  background-color: #007a00 !important;
+  color: #ffffff !important;
+  border-color: #004d00 !important;
+  font-weight: bold !important;
+}
+
+.gridjs-pages button.gridjs-prev,
+.gridjs-pages button.gridjs-next {
+  font-weight: bold !important;
+  font-size: 1.1rem !important;
+}
